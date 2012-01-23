@@ -204,42 +204,43 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* *****************************************************************************
  * Color Table
  *
- * (Base) Blue - #008B94
- * Light Orange - #F7A800
- * Orange - #F76D0A
- * Pea - #BFBB19
- * Dark Pink - #B82062
+ * Zumba! Birds of Paradise 
+ * http://kuler.adobe.com/#themeID/515692
+ *
+ * Mardi Gras (in use)
+ * http://kuler.adobe.com/#themeID/1231413
  *
  * ************************************************************************** */
 
-#main { padding: 0.75em; min-height: 50em; background-color: #E0FA9F; }
+#main { padding: 0.75em; min-height: 50em; }
 #social-media { position: absolute; top: 0; right: 0; padding: 1em; }
 #social-media:after { clear: both; }
 
 .social { display: inline-block; width: 80px; }
-.cssMenu { background-color: #008B94; padding: 0.75em; }
+.cssMenu { background-color: #0034E8; padding: 0.75em; }
 .cssMenu li { display: inline;}
 .cssMenu a { color: #fff; text-decoration: none; padding: 0.75em; }
-.cssMenu a:hover { background-color: #B82062; padding: 0.75em; color: #fff; }
+.cssMenu a:hover { background-color: #D600FF; padding: 0.75em; color: #fff; }
 .featured { float: right; border: 1px solid #000; background-color: #fff; margin-top: 0.75em; margin-left: 1em; margin-right: 1em; min-width: 30em; }
-.featured-title { background-color: #F76D0A; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
+.featured-title { background-color: #5F0091; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
 .product { padding: 0.45em; }
 .product-image { float: left; padding-right: 0.75em; padding-bottom: 0.75em; }
-.product-title { color: #008B94; font-weight: bold; font-size: larger; }
+.product-title { color: #0034E8; font-weight: bold; font-size: larger; }
 .product-text { }
-.product-price { color: #F7A800; font-weight: bold; }
+.product-price { color: #13A000; font-weight: bold; }
 .center { text-align: center; }
 .media { border: 1px solid #000; background-color: #fff; margin-bottom: 1em; }
-.media-title { font-size: larger; font-weight: bold; background-color: #F76D0A; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
+.media-title { font-size: larger; font-weight: bold; background-color: #5F0091; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
 .media-date { color: gray; padding-left: 0.5em; }
 .media-content { text-align: center; }
 .member { border: 1px solid #000; min-height: 10em; background-color: #fff; margin-bottom: 1em; }
-.member-name { font-size: larger; font-weight: bold; background-color: #F76D0A; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
-.member-photo { float: left; margin-left: 0.5em; padding: 4em 3.5em; margin-right: 0.5em; margin-bottom: 0.5em; border: 1px dotted #000; background-color: #eee; }
+.member-name { font-size: larger; font-weight: bold; background-color: #5F0091; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
+.member-photo { float: left; margin-left: 1em; padding: 4em 3.5em; margin-right: 0.5em; margin-bottom: 0.5em; border: 1px dotted #000; background-color: #eee; }
 .member-bio { }
-.member-media { clear: both; margin-left: 0.5em; }
+.member-media { clear: both; margin: 0.5em; background-color: #000; }
+.member-media-video { display: inline-block; margin: 0.5em; padding: 4em 3.5em; background-color: #eee; border: 1px dotted #000; }
 
-footer { background-color: #008B94; color: #fff; padding: 0.75em; text-align: center; bottom: 0; position: fixed; width: 100%; }
+footer { background-color: #0034E8; color: #fff; padding: 0.75em; text-align: center; bottom: 0; position: fixed; width: 100%; }
 
 
 /* =============================================================================
