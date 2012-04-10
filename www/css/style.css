@@ -230,7 +230,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .product-text { }
 .product-price { color: #13A000; font-weight: bold; }
 .center { text-align: center; }
-.media { border: 1px solid #000; background-color: #fff; margin-bottom: 1em; }
+.media { border: 1px solid #000; background-color: #fff; margin-bottom: 1em; display: inline-block; }
 .media-title { font-size: larger; font-weight: bold; background-color: #5F0091; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
 .media-date { color: gray; padding-left: 0.5em; }
 .media-content { text-align: center; }
@@ -240,6 +240,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .member-bio { }
 .member-media { clear: both; margin: 0.5em; background-color: #000; }
 .member-media-video { display: inline-block; margin: 0.5em; padding: 1em 0.5em; border: 1px dotted #eee; }
+iframe.video { width: 450px; height: 420px; margin: 1.35em; border: none; }
 
 footer { background-color: #5F0091; color: #fff; padding: 0.75em; text-align: center; bottom: 0; position: fixed; width: 100%; }
 
