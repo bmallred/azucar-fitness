@@ -3,7 +3,7 @@
         xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/1.1"
         xmlns:video="http://www.sitemaps.org/schemas/sitemap-video/1.1">
   <url> 
-    <loc>http://www.azucarfitness.com/index.html</loc> 
+    <loc>http://www.azucarfitness.com/</loc> 
     <image:image>
        <image:loc>http://www.azucarfitness.com/logo_large.gif</image:loc> 
     </image:image>
@@ -16,15 +16,15 @@
     </video:video>-->
   </url>
   <url>
-    <loc>http://www.azucarfitness.com/events.html</loc>
+    <loc>http://www.azucarfitness.com/events</loc>
   </url>
   <url>
-    <loc>http://www.azucarfitness.com/media.html</loc>
+    <loc>http://www.azucarfitness.com/channel</loc>
   </url>
   <url>
-    <loc>http://www.azucarfitness.com/team.html</loc>
+    <loc>http://www.azucarfitness.com/team</loc>
   </url>
   <url>
-    <loc>http://www.azucarfitness.com/store.html</loc>
+    <loc>http://www.azucarfitness.com/store</loc>
   </url>
 </urlset>

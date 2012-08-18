@@ -1,27 +1,22 @@
-<!-- InstanceBegin template="/Templates/main-template.dwt" codeOutsideHTMLIsLocked="false" --><!doctype html>
+<!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" ng-app="azucar"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<!-- InstanceBeginEditable name="doctitle" -->
 	<title>Az&#250;car - Wickedly Sweet Fitness</title>
-    <!-- InstanceEndEditable -->
 
 	<meta name="description" content="Az&#250;car Fitness&#8482; is a revolutionary new way to get fit. You can attend fun and challenging aerobics class from Zumba to Hot Hula or you can get customized Crossfit style workouts through one of our personal trainers all without leaving your home.">
 	<meta name="author" content="Bryan M. Allred">
 	<meta name="keywords" content="zumba, online zumba, tommi zumba, online fitness, exercise, cardio, workout, international music, dance workout, latin fitness, fun workout, zumba workout, fitness video, aerobic">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="styles/azucar-fitness.css">
 
-	<script src="js/libs/modernizr-2.0.6.min.js"></script>
-    
-	<!-- InstanceBeginEditable name="head" -->
-    <!-- InstanceEndEditable -->
+	<script src="scripts/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
 <body>
@@ -29,7 +24,7 @@
 <div id="container">
     <div id="stripe"></div>
 	<header>
-		<a href="index.html" title="Azucar!"><img src="logo_large.gif" alt="Az&#250;car! Wickedly Sweet Fitness." /></a>
+		<a href="/" title="Azucar!"><img src="images/logo_large.gif" alt="Az&#250;car! Wickedly Sweet Fitness." /></a>
 
 		<div id="social-media">
 			<div class="social">
@@ -85,75 +80,41 @@
 		</div>
 		<nav>
 			<ul class="cssMenu">
-				<li><a href="index.html" title="Home">Home</a></li>
-				<li><a href="media.html" title="Fitness Channel">Fitness Channel</a></li>
-                <li><a href="team.html" title="The Team">The Team</a></li>
-				<li><a href="events.html" title="Events">Events</a></li>
-				<li><a href="store.html" title="Store">Store</a></li>
+				<li><a href="/" title="Home">Home</a></li>
+				<li><a href="/channel" title="Fitness Channel">Fitness Channel</a></li>
+                <li><a href="/team" title="The Team">The Team</a></li>
+				<li><a href="/events" title="Events">Events</a></li>
+				<li><a href="/store" title="Store">Store</a></li>
 			</ul>
 		</nav>
 	</header>
-	<div id="main" role="main">
-    	<!-- InstanceBeginEditable name="main" -->
-        <!-- Featured products -->
-		<div class="featured">
-			<div class="featured-title">Featured Products</div>
-			<div class="product">
-				<img class="product-image" src="crew.gif" alt="10 Personal Training Sessions" />
-				<div class="product-title">10 Personal Training Sessions</div>
-				<div class="product-text">Regular price: $400.00</div>
-				<div class="product-price">Sale price: $300.00</div>
-			</div>
-		</div>
-
-        <!-- Media teaser -->
-        <iframe src="video-taster.html" class="video"></iframe>
-
-        <!-- Introduction -->
-        <p>Welcome to Az&#250;car Fitness&#8482;! You are about to enter into the internet  based, virtual gym where you can attend live aerobics classes on your laptop, internet enabled TV or phone, order fitness classes &lsquo;on demand&rsquo; and get live, personalized coaching.  </p>
-        <p>We offer yoga, hula fitness, Zumba ®, personal training, boot camps, and much  more – <strong>available wherever and whenever you want them</strong>.  </p>
-        <p>You can meet with one-on-one with your  personal fitness coach who will design a program just for you and meet with  them weekly to keep up your progress no matter where you are located.        Classes are offered in HD quality video and are broadcast  live on Sunday&rsquo;s and Monday&rsquo;s, and are available the rest of the week for  replay. </p>
-        <p><strong>You CAN fit this into your busy  schedule!  </strong><br>
-        </p>
-        <p>This is not an interactive tool or canned videos, this is  live, one-on-one training and classes - <strong>real instructors, real coaches, real  results</strong>. </p>
-        <p>You can get encouragement from your trainer when you need it most –<strong> when you AREN&rsquo;T at the gym. <br>
-        </strong></p>
-        <p>Imagine if you could take your favorite instructor on  vacation with you.  Your business travel  need not be a reason to skip the gym or your personal coaching session. The gym  comes with you and a fun work out is at your fingertips. Because these are  offered in HD quality, you can feed them to your TV through your laptop or any  internet device.  </p>
-<p><strong>So what are you waiting  for? LET&rsquo;S GET STARTED!</strong></p>
-        <p>.</p>
-        
-        <!-- Social media websites -->
-        <p style="clear: left;">
-            <a href="http://www.facebook.com/pages/Azucar-Fitness/278169302213266" title="Join us on Facebook!"><img src="facebook-icon.png" alt="Visit us at Facebook!" width="41" height="37" style="float: left; height: 4em; width: 4em; margin-right: 1em;" /></a>
-            <span style="margin-top: 2em;">Join us on Facebook!</span>
-        </p>
-        <p style="clear: left;">
-            <a href="https://twitter.com/#!/AzucarFitness" title="Follow us on Twitter!"><img src="twitter-icon.png" alt="Follow us on Twitter!" style="float: left; height: 4em; width: 4em; margin-right: 1em;" /></a>
-            <span>Follow us on Twitter!</span>
-        </p>
-        <!-- InstanceEndEditable -->
-  </div>
+	<div id="main" role="main" ng-view></div>
 	<footer>
 		<div class="copyright">
 			Copyright &copy; 2012 Az&#250;car Fitness&#8482; All Rights Reserved.
 		</div>
 	</footer>
-</div> <!--! end of #container -->
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="scripts/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script src="scripts/libs/angular-1.0.1.min.js"></script>
+<script src="scripts/libs/angular-resource-1.0.1.min.js"></script>
 
 <!-- scripts concatenated and minified via ant build script-->
-<script src="js/plugins.js"></script>
-<script src="js/script.js"></script>
+<script src="scripts/plugins.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/utilities.js"></script>
+<script src="scripts/controllers.js"></script>
+<script src="scripts/app.js"></script>
 <!-- end scripts-->
 
-<script>
+<!--<script>
 	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
 	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 	s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+</script>-->
 
 <!--[if lt IE 7 ]>
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
@@ -161,4 +122,4 @@
 <![endif]-->
 
 </body>
-<!-- InstanceEnd --></html>
+</html>
