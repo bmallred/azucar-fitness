@@ -221,12 +221,15 @@ nav { text-align: center; }
 .bg-zumba-black { background-color: #000; }
 .bg-zumba-green { background-color: #72fc00; }
 .fg-zumba-white { color: #fff; }
+.fg-zumba-black { color: #000; }
+.fg-zumba-pink { color: #d90065; }
 
 .right { float: right; }
 .left { float: left; }
 .inline { display: inline-block; }
 .relative { position: relative; }
 .skinny-jeans { padding: 0; margin: 0; }
+.bold { font-weight: bold; }
 
 .social { display: inline-block; width: 80px; }
 .cssMenu { background-color: #5F0091; padding: 0.75em; }
