@@ -220,11 +220,13 @@ nav { text-align: center; }
 
 .bg-zumba-black { background-color: #000; }
 .bg-zumba-green { background-color: #72fc00; }
+.bg-zumba-purple { background-color: #5F0091; }
 .fg-zumba-white { color: #fff; }
 .fg-zumba-black { color: #000; }
 .fg-zumba-pink { color: #d90065; }
 .fg-zumba-blue { color: #3200e6; }
 
+.center { text-align: center; }
 .right { float: right; }
 .left { float: left; }
 .inline { display: inline-block; }
@@ -234,28 +236,14 @@ nav { text-align: center; }
 
 .social { display: inline-block; width: 80px; }
 .cssMenu { background-color: #5F0091; padding: 0.75em; }
-.cssMenu li { display: inline;}
-.cssMenu a { color: #fff; text-decoration: none; padding: 0.75em; }
-.cssMenu a:hover { background-color: #D600FF; padding: 0.75em; color: #fff; }
+.cssMenu li { display: inline; }
+.cssMenu a { color: #fff; text-decoration: none; padding: 0.75em 2em; }
+.cssMenu a:hover { background-color: #D600FF; padding: 0.75em 2em; color: #fff; }
 .cssMenu a:visited { color: #fff; }
-.featured { float: right; border: 1px solid #000; background-color: #fff; margin-top: 0.75em; margin-left: 1em; margin-right: 1em; min-width: 30em; }
-.featured-title { background-color: #5F0091; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
-.product { padding: 0.45em; }
-.product-image { float: left; padding-right: 0.75em; padding-bottom: 0.75em; }
-.product-title { color: #0034E8; font-weight: bold; font-size: larger; }
-.product-text { }
-.product-price { color: #13A000; font-weight: bold; }
-.center { text-align: center; }
 .media { border: 1px solid #000; background-color: #fff; margin-bottom: 1em; display: inline-block; }
 .media-title { font-size: larger; font-weight: bold; background-color: #5F0091; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
 .media-date { color: gray; padding-left: 0.5em; }
 .media-content { text-align: center; }
-.member { border: 1px solid #000; min-height: 10em; background-color: #fff; margin-bottom: 1em; }
-.member-name { font-size: larger; font-weight: bold; background-color: #5F0091; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
-.member-photo { float: left; margin-left: 1em; padding: 4em 3.5em; margin-right: 0.5em; margin-bottom: 0.5em; border: 1px dotted #000; background-color: #eee; }
-.member-bio { }
-.member-media { clear: both; margin: 0.5em; background-color: #000; }
-.member-media-video { display: inline-block; margin: 0.5em; padding: 1em 0.5em; border: 1px dotted #eee; }
 iframe.video { width: 450px; height: 420px; /*margin: 1.35em;*/ border: none; }
 
 .footer-divider { background-color: #5F0091; color: #fff; padding: 0.75em 0; text-align: center; bottom: 0; position: relative; width: 100%; }
