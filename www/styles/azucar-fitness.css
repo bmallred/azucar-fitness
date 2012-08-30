@@ -244,7 +244,7 @@ nav { text-align: center; }
 .media-title { font-size: larger; font-weight: bold; background-color: #5F0091; color: #fff; padding: 0.35em 0.5em; margin-bottom: 0.5em; }
 .media-date { color: gray; padding-left: 0.5em; }
 .media-content { text-align: center; }
-iframe.video { width: 450px; height: 420px; /*margin: 1.35em;*/ border: none; }
+iframe.video { width: 450px; height: 420px; /*margin: 1.35em;*/ border: none; overflow: hidden; }
 
 .footer-divider { background-color: #5F0091; color: #fff; padding: 0.75em 0; text-align: center; bottom: 0; position: relative; width: 100%; }
 
