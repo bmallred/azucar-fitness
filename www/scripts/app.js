@@ -24,4 +24,8 @@ angular.module("azucar", [])
 			controller: TeamController,
 			templateUrl: "partials/team.html"
 		})
+		.otherwise({
+            controller: MainController,
+            templateUrl: "partials/intro.html"
+        });
 	}]);
